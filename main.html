@@ -14,7 +14,7 @@
             height: 100vh;
             background-color: #f0f0f0;
         }
-        .grid {
+        #grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: repeat(4, 1fr);
@@ -22,7 +22,7 @@
             width: 90%;
             height: 90%;
         }
-        .grid > div {
+        #grid > div {
             background-color: green;
             color: white;
             display: flex;
@@ -45,7 +45,7 @@
     </style>
 </head>
 <body>
-    <div class="grid">
+    <div id="grid">
         <div class="item1">1</div>
         <div class="item2">2</div>
         <div class="item3">3</div>
